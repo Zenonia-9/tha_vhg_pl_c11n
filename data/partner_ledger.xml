@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="partner_ledger_report_anzer_id" model="account.report.column">
+        <field name="name">Anzer ID</field>
+        <field name="expression_label">anzer_id</field>
+        <field name="figure_type">string</field>
+        <field name="sequence">41</field>
+        <field name="report_id" ref="account_reports.partner_ledger_report"/>
+    </record>
+
+    <record id="partner_ledger_report_vendor_ref" model="account.report.column">
+        <field name="name">Anzer Reference</field>
+        <field name="expression_label">vendor_ref</field>
+        <field name="figure_type">string</field>
+        <field name="sequence">42</field>
+        <field name="report_id" ref="account_reports.partner_ledger_report"/>
+    </record>
+</odoo>
