@@ -15,4 +15,12 @@
         <field name="sequence">42</field>
         <field name="report_id" ref="account_reports.partner_ledger_report"/>
     </record>
+
+    <record id="partner_ledger_report_ref" model="account.report.column">
+        <field name="name">Reference</field>
+        <field name="expression_label">ref</field>
+        <field name="figure_type">string</field>
+        <field name="sequence">43</field>
+        <field name="report_id" ref="account_reports.partner_ledger_report"/>
+    </record>
 </odoo>
