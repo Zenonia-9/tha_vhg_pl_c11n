@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "THA VHG Partner Ledger Customization",
+    "name": "VHG Partner Ledger Customization",
     "summary": "Adds Anzer columns to the original Partner Ledger report.",
     "version": "19.0.1.0.0",
     "category": "Accounting/Accounting",
