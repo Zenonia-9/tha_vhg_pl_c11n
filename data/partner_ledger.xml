@@ -16,7 +16,7 @@
         <field name="report_id" ref="account_reports.partner_ledger_report"/>
     </record>
 
-    <record id="partner_ledger_report_ref" model="account.report.column">
+    <record id="partner_ledger_report_invoice_no" model="account.report.column">
         <field name="name">Invoice No.</field>
         <field name="expression_label">invoice_no</field>
         <field name="figure_type">string</field>
@@ -24,7 +24,7 @@
         <field name="report_id" ref="account_reports.partner_ledger_report"/>
     </record>
 
-    <record id="partner_ledger_report_move_ref" model="account.report.column">
+    <record id="partner_ledger_report_ref" model="account.report.column">
         <field name="name">Reference</field>
         <field name="expression_label">ref</field>
         <field name="figure_type">string</field>
