@@ -13,6 +13,7 @@ class AccountPartnerLedgerReportHandler(models.AbstractModel):
             %(super_columns)s
             COALESCE(account_move.anzer_id, '') AS anzer_id,
             COALESCE(account_move.vendor_ref, '') AS vendor_ref,
+            COALESCE(account_move.name, '') AS invoice_no,
             """,
             super_columns=super()._get_additional_column_aml_values(),
         )
