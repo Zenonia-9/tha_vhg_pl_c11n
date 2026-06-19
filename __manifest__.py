@@ -12,6 +12,11 @@
     "data": [
         "data/partner_ledger.xml",
     ],
+    "assets": {
+        "web.assets_backend": [
+            "tha_vhg_pl_c11n/static/src/components/account_report/filters/filter_vhg_pl_account.xml",
+        ],
+    },
     "installable": True,
     "application": False,
     "auto_install": False,
